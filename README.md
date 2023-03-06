@@ -41,11 +41,39 @@ Leave other settings as default and click on Launch Instance
 ![Choose Instance1](./images/launch4.png)
 
 
+Our 4 instances should be in a running state right now.
+
+
 Rename each Instance as ServerA, ServerB, ServerC, and ServerD
 
 ![Choose Instance1](./images/launch5.png)
 
 
+
+
+### Launch Mobaxterm and SSH into our 4 servers
+- To do this, we shall need their host names, username(ubuntu) and private key that we created.
+
+- Select the checkbox next to the instance and click on connect to see the connection settings
+
+![Choose Instance1](./images/launch6.png)
+
+
+- Click on Session and then choose SSH as the session type.
+
+![Choose Instance1](./images/mobaxterm1.png)
+
+- Username will be ubuntu and remote host will be our AWS PublicDNS such as ec2-34-232-70-251.compute-1.amazonaws.com
+
+![Choose Instance1](./images/mobaxterm2.png)
+
+![Choose Instance1](./images/mobaxterm3.png)
+
+
+- click on advanced settings, select useprivate key and navigate to the location of the private key on our local system.
+
+
+![Choose Instance1](./images/mobaxterm4.png)
 
 
 
