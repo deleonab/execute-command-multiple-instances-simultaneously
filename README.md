@@ -14,7 +14,7 @@ This is what we shall be doing
 Download Mobaxterm from official [Mobaxterm website](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 
-### 2. Launch 4 Ubuntu Servers ans label A, B, C and D
+### 2. Launch 4 Ubuntu Servers and label them A, B, C and D
 
 Choose 4 Ubuntu Instances on the free tier - Ubuntu Server 22.04 
 
@@ -29,7 +29,16 @@ I created one called testkeypair.pem
 
 For the firewall settings, allow SSH traffic as we shall need to SSH into our instances to get the public IP addresses later.
 
-![Choose Instance1](./images/launch2.png)
+![Choose Instance1](./images/launch3.png)
+
+
+Leave other settings as default and click on Launch Instance
+
+![Choose Instance1](./images/launch4.png)
+
+Rename each Instance as ServerA,ServerB,ServerC, and ServerD
+
+![Choose Instance1](./images/launch5.png)
 
 
 
