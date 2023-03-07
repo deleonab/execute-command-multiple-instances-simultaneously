@@ -88,6 +88,25 @@ Rename each Instance as ServerA, ServerB, ServerC, and ServerD
 curl http://169.254.169.254/latest/meta-data/public-ipv4
 ```
 
+![Choose Instance1](./images/mobaxterm6.png)
+
+
+- Run the command 
+```
+curl http://169.254.169.254/latest/meta-data/public-ipv4
+```
+
+It will output the public IPV4 address if all 4 servers
+
+![Choose Instance1](./images/mobaxterm7.png)
+
+It returned the following
+
+- ServerA 54.210.175.15
+- ServerB 34.224.16.36
+- ServerC 18.206.232.35
+- ServerD 52.86.230.154
+
 
 
 
