@@ -107,6 +107,8 @@ It returned the following
 - ServerC 18.206.232.35
 - ServerD 52.86.230.154
 
+## Do not forget to terminate your 4 running instances to avoid incuring extra costs.
+
 
 
 
