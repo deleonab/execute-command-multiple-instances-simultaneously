@@ -72,8 +72,26 @@ Rename each Instance as ServerA, ServerB, ServerC, and ServerD
 
 - click on advanced settings, select useprivate key and navigate to the location of the private key on our local system.
 
+- Click Okay
+
+- Repeat this step to SSH into the four ec2 servers and name each tab ServerA -ServerD for differentiation.
 
 ![Choose Instance1](./images/mobaxterm4.png)
+
+- Click on the MultiExec button in the top menu. 
+-- This will allow us to run te same command simutaneously in all terminals and in all ec2 instances
+
+![Choose Instance1](./images/mobaxterm5.png)
+
+### Our mission is to use curl to return each instances public IPV4 address from it's metadata using the commans
+```
+curl http://169.254.169.254/latest/meta-data/public-ipv4
+```
+
+
+
+
+
 
 
 
